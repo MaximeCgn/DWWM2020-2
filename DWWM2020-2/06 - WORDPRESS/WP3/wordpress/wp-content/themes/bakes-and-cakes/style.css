@@ -95,14 +95,7 @@ template {
 
 a {
     text-decoration: none;
-    color: #bbbcc1;
     outline: none;
-}
-
-a:active,
-a:hover {
-    text-decoration: underline;
-    color: #bbbcc1;
 }
 
 a:focus {
@@ -530,8 +523,9 @@ textarea {
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
-a {
-    color: #81c9c7;
+
+a{
+	color : #555555;
 }
 
 a:hover,
@@ -541,7 +535,7 @@ a:active {
 }
 
 a:focus {
-    outline: thin dotted;
+    outline: none;
 }
 
 a:hover,
