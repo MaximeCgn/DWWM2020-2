@@ -17,8 +17,11 @@ if( is_home() || ! $enabled_sections || ! ( is_front_page()  || is_page_template
 		<div class="container">
 
 			<?php 
-            do_action( 'bakes_and_cakes_footer_top' );
-			do_action( 'bakes_and_cakes_footer' ); ?>
+			echo '
+			<div class="centrer">Créé par Maxime Cugny - DWWM2020</div>
+			<div class="espaceHori"></div>
+			'
+            ?>
 		
 		</div>
 	
@@ -29,7 +32,7 @@ if( is_home() || ! $enabled_sections || ! ( is_front_page()  || is_page_template
 	</div><!-- #acc-content -->
 </div><!-- #page -->
 
-<?php wp_footer();?>
+ <?php wp_footer();?> 
 
 </body>
 </html>

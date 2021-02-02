@@ -1,5 +1,26 @@
-/* Theme Name: Theme enfant Description: Theme enfant de Maxime Cgn Author: Benoit - WPserveur Author URI: https://www.wpserveur.net Template: bakes-and-cakes Version: 0.1.0 */
+/* 
+Theme Name: Theme enfant 
+Description: Theme enfant de Maxime Cgn 
+Author: Maxime - DWWM2020 
+Author URI: 
+Template: bakes-and-cakes 
+Version: 0.1.0 
+*/
 
-body{
-    background-color: yellow;
+.site {
+    background-image:url("http://deuxiemesession/DWWM2020-2/DWWM2020-2/06%20-%20WORDPRESS/WP3/wordpress/wp-content/uploads/2021/02/wp-1.jpeg");
+}
+
+.centrer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.espaceHori{
+    height: 50px;
+}
+
+.site-info{
+    display: none;
 }
