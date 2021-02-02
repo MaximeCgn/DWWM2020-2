@@ -1,0 +1,101 @@
+/*
+Theme Name: NouveauTheme
+Author: Maxime
+Description: Nouveau Theme pour wordpress
+*/
+
+/****GENERAL****/
+
+div,nav,body,footer{
+    display:flex;
+    flex:1;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: Helvetica;
+    background-image:url("http://deuxiemesession/DWWM2020-2/DWWM2020-2/06%20-%20WORDPRESS/WP4/wp-content/uploads/2021/02/wp.jpeg");
+    color: rgb(53, 54, 54);
+    justify-content: center;
+    align-items: center;
+}
+
+.centrer{
+    justify-content: center;
+    align-items: center;
+}
+
+.colonne,.blog-main{
+    flex-direction: column;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    padding: 0.5em;
+}
+/****HEADER ET NAV****/
+.header{
+    background: rgb(115, 128, 126);
+    width: 100%;
+}
+#navigation-principale li{
+    position:relative;
+    display:inline-block;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.menu-menu-1-container{
+    justify-content: center;
+    align-items: center;
+}
+
+/**** CONTENU ET SIDEBAR****/
+.blog-sidebar{
+    flex:0.2;
+    max-height: 30vh;
+}
+
+.wp-block-column{
+    padding: 1em;
+    flex-direction: column;
+}
+
+.contenumilieu{
+    margin: 2em;
+    background-color: rgb(212, 212, 212);
+    border-radius: 1em;
+}
+
+.blog-post, .blog-sidebar{
+    margin: 1em;
+    padding: 1em;
+    background-color: rgb(177, 177, 177);
+    border-radius: 1em;
+    box-shadow: 10px 5px 5px black;
+}
+
+/**** FOOTER ****/
+footer{
+    background: rgb(115, 128, 126);
+    color: whitesmoke;
+    width: 100%;
+    flex-shrink:0;
+}
+
+/****Read More****/
+.readMore{
+    background-color: #a8a8a8;
+    border-radius: 1em;
+    padding: 0.5em;
+    flex:0.3;
+    border: 1px solid black;
+}
+
+/**** Sommaire ****/
