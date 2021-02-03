@@ -1,8 +1,7 @@
 <div class="col-sm-3 col-sm-offset-1 blog-sidebar ">
 <div class="sidebar-module sidebar-module-inset">
 <div class="colonne">
-<h4>À Propos</h4>
-<div><?php the_author_meta('description');?></div>
+<div class="colonne"><?php get_search_form(); ?></div>
 <h4>Archives</h4>
 <div>
 <ol class="list-unstyled">

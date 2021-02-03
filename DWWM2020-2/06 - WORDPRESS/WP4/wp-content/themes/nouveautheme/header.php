@@ -5,6 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content=""> <meta name="author" content="">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+<link href="//db.onlinewebfonts.com/c/3155bb9a43a1e1349fde80b0116fe6cd?family=Charlemagne+Std" rel="stylesheet" type="text/css"/>
 <title>Nouveau Thème de Maxime</title>
 <!-- CSS de Bootstrap -->
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
@@ -21,9 +24,10 @@
 </head>
 <body class="colonne"> 
 <div class="header"> 
-<div class="container">
+<div class="container contenuPrincipal">
+
 <nav id="navigation-principale" role="navigation">
-<div></div>
+<div id="backButton">RETOUR</div>   
 <div class="centrer">
 <?php wp_nav_menu(array('theme_location'=>'menu-principal'));?>
 </div>

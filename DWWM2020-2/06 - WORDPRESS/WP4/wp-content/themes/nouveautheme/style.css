@@ -14,11 +14,16 @@ div,nav,body,footer{
 body{
     margin:0;
     padding: 0;
-    font-family: Helvetica;
+    font-family: 'Josefin Sans', sans-serif;
     background-image:url("http://deuxiemesession/DWWM2020-2/DWWM2020-2/06%20-%20WORDPRESS/WP4/wp-content/uploads/2021/02/wp.jpeg");
-    color: rgb(53, 54, 54);
+    color: rgb(31, 31, 31);
     justify-content: center;
     align-items: center;
+    font-size: medium;
+}
+
+.contenuPrincipal{
+    height: 100%;
 }
 
 .centrer{
@@ -35,14 +40,22 @@ a{
     text-decoration: none;
 }
 
+a:hover,a:active{
+    color:rgb(31, 31, 31);
+    text-decoration:none;
+}
+
 li{
     list-style-type: none;
     padding: 0.5em;
 }
 /****HEADER ET NAV****/
 .header{
-    background: rgb(115, 128, 126);
+    background: #B1B1B1;
     width: 100%;
+    border-bottom: 2px solid #73807E;
+    font-size: large;
+    font-family: "Charlemagne Std";
 }
 #navigation-principale li{
     position:relative;
@@ -54,6 +67,15 @@ li{
 .menu-menu-1-container{
     justify-content: center;
     align-items: center;
+}
+
+#backButton{
+    align-items: center;
+}
+
+#backButton:hover{
+    cursor:pointer;
+    color:whitesmoke;
 }
 
 /**** CONTENU ET SIDEBAR****/
@@ -83,10 +105,17 @@ li{
 
 /**** FOOTER ****/
 footer{
-    background: rgb(115, 128, 126);
-    color: whitesmoke;
+    background: #B1B1B1;
     width: 100%;
-    flex-shrink:0;
+    border-top: 2px solid #73807E;
+    color: whitesmoke;
+    position: fixed;
+    bottom: 0;
+    font-size: large;
+}
+
+.fakefooter{
+    visibility: hidden;
 }
 
 /****Read More****/

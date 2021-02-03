@@ -11,7 +11,7 @@ add_action( 'after_setup_theme', 'mytheme_post_thumbnails' );
 // Réduire l'extrait
 function new_excerpt_length($length) {
     global $post;
-    return 40;
+    return 30;
 }
 add_filter('excerpt_length', 'new_excerpt_length');
 
