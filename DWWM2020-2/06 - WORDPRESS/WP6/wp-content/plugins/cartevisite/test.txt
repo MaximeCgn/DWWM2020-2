@@ -1,0 +1,15 @@
+echo '<h1>' . get_admin_page_title() . '</h1>';
+        ?>
+        <form method="post" action="options.php">
+        <?php settings_fields('cartevisite_settings')?>
+            <label for="cartevisite_nom">Nom :</label>
+            <input type="color" name="cartevisite_nom" value="<?php echo get_option("cartevisite_nom") ?>"/>
+            <label for="cartevisite_email">email :</label>
+            <input type="color" name="cartevisite_email" value="<?php echo get_option("cartevisite_email") ?>"/>
+            <label for="cartevisite_tel">tel :</label>
+            <input type="color" name="cartevisite_tel" value="<?php echo get_option("cartevisite_tel") ?>"/>
+            <label for="cartevisite_adresse">adresse :</label>
+            <input type="color" name="cartevisite_adresse" value="<?php echo get_option("cartevisite_adresse") ?>"/>
+            <?php submit_button();?>
+            </form>
+            <?php
