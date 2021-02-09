@@ -1,0 +1,41 @@
+
+.colonne{
+    display: flex;
+    flex-direction: column;
+}
+
+.centrer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carteRecto{
+    display: flex;
+    background-color: whitesmoke;
+    border-radius: 2em;
+    height: 6em;
+}
+
+.carteVerso{
+    background-color: whitesmoke;
+    border-radius: 2em;
+    height: 6em;
+    display: none;
+}
+
+.logo{
+    display:flex;
+    flex:0.5;
+}
+
+.fleche{
+    display:flex;
+    height:30px;
+}
+
+.divFleche{
+    display:flex;
+    justify-content: right;
+    align-items: right;
+}
