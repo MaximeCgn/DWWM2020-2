@@ -15,7 +15,7 @@ class cartewidget extends WP_Widget
         echo $args['after_title'];
         // corps du widget
         global $wpdb;
-        $row = $wpdb->query("SELECT * FROM {$wpdb->prefix}cartevisite WHERE `id`=". $_POST['cartes'].";");
+        $row=$wpdb->get_row("SELECT * FROM {$wpdb->prefix}cartevisite ORDER BY `id` DESC LIMIT 1;");
         $couleur = get_option('cartevisite_couleur', 'black');
         $nom = $row->Nom;
         $prenom = $row->Prenom;

@@ -27,7 +27,7 @@ class CarteVisite_Plugin
         echo '<h1>' . get_admin_page_title() . '</h1>';
         global $wpdb;
         $row = $wpdb->get_row("SELECT * FROM {$wpdb->prefix}cartevisite ORDER BY `id` DESC LIMIT 1;");
-        $select = $wpdb->get_results("SELECT * FROM {$wpdb->prefix}cartevisite");
+        // $select = $wpdb->get_results("SELECT * FROM {$wpdb->prefix}cartevisite");
         ?>
         <h2>Nouvelle carte de visite</h2>
         <form method="post" action="options.php">
@@ -74,15 +74,15 @@ echo get_option("cartevisite_couleur")
             <label for="nonTel">Non</label>
             </div>
             <br><br>
-            <h2>Carte de visite à afficher</h2>         
+            <!-- <h2>Carte de visite à afficher</h2>         
             <select name="cartes">
             <?php
-                for ($i=0;$i<count($select);$i++)
-                {
-                    echo '<option value='.$select[$i]->id.'>'.$select[$i]->Nom.' '.$select[$i]->Prenom.'</option>';
-                }
+                // for ($i=0;$i<count($select);$i++)
+                // {
+                //     echo '<option value='.$select[$i]->id.'>'.$select[$i]->Nom.' '.$select[$i]->Prenom.'</option>';
+                // }
             ?>
-            </select>
+            </select> -->
             <?php settings_fields('cartevisite_settings')?>
             <?php submit_button();?>
         </form>

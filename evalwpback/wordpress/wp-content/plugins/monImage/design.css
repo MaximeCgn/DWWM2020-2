@@ -1,0 +1,11 @@
+#image{
+    display: flex;
+    min-height: 29vh;
+    background-repeat: no-repeat;
+    background-image:url("http://local/DWWM2020-2/evalwpback/wordpress/wp-content/uploads/2021/02/Screenshot_1.png") ;
+}
+
+#image:hover{
+    background-image:url("http://local/DWWM2020-2/evalwpback/wordpress/wp-content/uploads/2021/02/s2.png");
+    background-repeat: no-repeat;
+}

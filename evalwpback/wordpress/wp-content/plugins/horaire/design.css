@@ -1,0 +1,19 @@
+.colonne{
+    display: flex;
+    flex-direction: column;
+}
+
+.ligne{
+        display: flex;
+        flex-direction: row;
+    justify-content: left;
+    align-items: left;
+}
+
+.jour,.matin,.soir{
+    display: flex;
+    padding: 0.5em;
+    justify-content: center;
+    align-items: center;
+}
+
